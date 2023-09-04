@@ -10,6 +10,8 @@ public class App
     {
          int a=10;
          int c=30; 
+         int d=40;
+         int k=c+d;
         System.out.println( "Hello World!" );
     }
 }
