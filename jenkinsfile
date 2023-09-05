@@ -1,0 +1,6 @@
+From open jdk:21
+
+
+copy target/app.jar/user/app/app.jar
+expose 8080
+ENTRYPOINT [ "java", "-jar", "app12.jar"  ]
